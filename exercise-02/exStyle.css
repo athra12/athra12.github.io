@@ -1,0 +1,53 @@
+a{
+    color: firebrick;
+    text-decoration: none;
+    
+}
+.HH{
+     position: fixed;
+    top:0;
+    width: 20px;
+    
+    
+}
+
+.HH ul{
+    list-style: none;
+    display: flex;
+    padding: 30;
+        
+   
+}
+
+.HH ul li{
+    
+     margin-right: 50px;
+}
+
+
+.HH ul li a{
+    display: inline-block;
+    font-family: monospace;
+    background-color: orangered;
+    color:white;    
+    padding: 18px 50px;
+    
+}
+
+.HH ul li a:hover{
+    background-color: crimson;
+    color:azure
+    
+}
+
+
+
+.headtop{
+               color: darkorange;
+           }
+           .text{
+               color: coral;
+               padding: 130 px;
+           }
+            
+
