@@ -1,3 +1,19 @@
+/*stylesheet for excercise 2 oct31.2019*/
+
+/* reset examples*/
+
+/* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+/*sttle sheet*/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+</style>
+
+/*Navigation*/
 a{
     color: firebrick;
     text-decoration: none;
@@ -7,7 +23,7 @@ a{
     position: fixed;
     top:0;
     background-color: black;
-    width: 100;
+    width: 100%;
     
     
 }
@@ -40,23 +56,57 @@ a{
     color:azure
     
 }
-
+/*header {height: 15vw; }/*vw stands for Viewport Width,changes the height of the header*/
+/*main {min-height: 70vh; },adjusts the height of the main body */ 
+/*p { width: 30%;}, adjusts how wide the text will be.*/
 body{
     
-    background-color: black;
+    background-color:firebrick;
     margin: 0%;
-    margin-top: 140px
+    margin-top: px
 }
 
+h2{
+    padding-left: 20px;
+    padding-bottom: 1em;
+    padding-top: 1.5em ;
+    
+}
+
+header{
+    height: 10vw; 
+    background-image:url(images/hand-984170_1920.jpg); width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(200,200,200);
+        
+        
+}
 .headtop{
-         color: darkorange;
+    color: darkorange;
+    text-align:;
            }
-           .text{
-        color: coral;
-        padding: 130 px;
+.text{
+    color:darkslategrey;
+    padding: 130 px;
            }
 P{
+    background-color: rgba(255,140,0);
     color: antiquewhite
+    
 }
-            
-
+main {
+    min-height: 70vh; 
+    padding-left: 20px;
+}
+footer{
+    background-color: rgb(30,30,30);
+    color: #fff;
+    
+}
+    /*typo*/       
+h1{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 3em;
+}
