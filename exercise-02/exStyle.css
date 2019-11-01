@@ -4,9 +4,10 @@ a{
     
 }
 .HH{
-     position: fixed;
+    position: fixed;
     top:0;
-    width: 20px;
+    background-color: black;
+    width: 100
     
     
 }
@@ -40,14 +41,22 @@ a{
     
 }
 
-
+body{
+    
+    background-color: black;
+    margin: 0%;
+    margin-top: 140px
+}
 
 .headtop{
-               color: darkorange;
+         color: darkorange;
            }
            .text{
-               color: coral;
-               padding: 130 px;
+        color: coral;
+        padding: 130 px;
            }
+P{
+    color: antiquewhite
+}
             
 
