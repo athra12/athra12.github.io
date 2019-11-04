@@ -25,7 +25,7 @@ display: flex;
 .mnav ul li a{
 text-decoration: none;
 font-family: "Comic Sans MS", cursive, sans-serif;
-font-size: 1.5em;
+font-size: 25px;
 color: rgb(145, 129, 6);
   
 }
@@ -47,25 +47,25 @@ color: white;
 }
 h1,h2 {
 font-family:'ZCOOL XiaoWei', serif;
-font-size: 3em;
+font-size: 45px;
 text-align: center;
 
 }
 .greeting{
-    font-size: 8em;
+    font-size: 134px;
     text-align: center;
-    margin: 70px 0;
+    margin: 92px 0;
 }
 
 
 .p1 {
 font-family:'ZCOOL XiaoWei', serif;
-font-size: 3em;
+font-size: 43px;
 display: inline-block;
 width: 350px;
 /*border: 3px ridge; */
 text-align: center;
-margin-right: 17%;
+margin-right: 360px;
 background-color: rgba(240,238,235,0.2);
 }
     
@@ -104,7 +104,7 @@ hr{
 footer p {
     background-color: rgb(30,30,30,0.7);    
     font-family: "Crimson Text", serif;
-    font-size: 2em;
+    font-size: 29px;
     margin: 0;
     color: beige;
     text-align: left;
