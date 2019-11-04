@@ -1,0 +1,111 @@
+
+a{
+ 
+}
+
+/*nav*/
+.mnav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+background-color:rgba(230,230,210,0.6); 
+}
+.mnav ul{
+list-style: none;
+list-style-type: none;
+display: flex; 
+
+    
+}
+.mnav ul li{
+ margin-right:2%;
+    
+}
+
+.mnav ul li a{
+text-decoration: none;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 1.5em;
+color: rgb(145, 129, 6);
+  
+}
+
+.mnav ul li a:hover{
+    background-color: cornsilk;
+}
+
+
+body{
+     background-image: url(autumn-1839969_1920.jpg);
+         margin:0;
+    margin-top: 70px;
+}
+
+h2{
+  
+color: white;  
+}
+h1,h2 {
+font-family:'ZCOOL XiaoWei', serif;
+font-size: 3em;
+text-align: center;
+
+}
+.greeting{
+    font-size: 8em;
+    text-align: center;
+}
+
+
+.p1 {
+font-family:'ZCOOL XiaoWei', serif;
+font-size: 3em;
+display: inline-block;
+width: 350px;
+/*border: 3px ridge; */
+text-align: center;
+margin-right: 17%;
+background-color: rgba(240,238,235,0.2);
+}
+    
+.columns{
+    margin-left: 450px;
+}
+
+p {
+ font-family:'ZCOOL XiaoWei', serif;
+ text-align: center;
+   
+}
+
+h2 { 
+ animation-name: slidein;
+ animation-duration: 4s;
+    transition: all 2s;
+    position:relative;
+
+}
+
+@keyframes slidein {
+    from {
+    left: 800px;
+/*    width:200%;*/
+    }
+    to {
+    left:0%;
+/*    width: 100%;*/
+    }
+    
+}
+hr{
+    margin-bottom: 0;
+}
+footer p {
+    background-color: rgb(30,30,30,0.7);    
+    font-family: "Crimson Text", serif;
+    font-size: 2em;
+    margin: 0;
+    color: beige;
+    text-align: left;
+    
+}
