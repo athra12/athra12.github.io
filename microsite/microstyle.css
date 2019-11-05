@@ -8,7 +8,11 @@ a{
     position: fixed;
     top: 0;
     width: 100%;
-background-color:rgba(230,230,210,0.6); 
+background-color:rgba(230,230,210,0.6);  
+/*
+    display: flex;
+    justify-content: space-between;
+*/
 }
 .mnav ul{
 list-style: none;
@@ -18,7 +22,7 @@ display: flex;
     
 }
 .mnav ul li{
- margin-right:2%;
+ margin-right:16px;
     
 }
 
@@ -41,6 +45,10 @@ body{
     margin-top: 70px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
 h2{
   
 color: white;  
@@ -65,12 +73,14 @@ display: inline-block;
 width: 350px;
 /*border: 3px ridge; */
 text-align: center;
-margin-right: 360px;
 background-color: rgba(240,238,235,0.2);
+    margin: 10px 20px;
 }
     
 .columns{
-    margin-left: 450px;
+/*    margin-left: 450px;*/
+    display:flex;
+    justify-content: center;
 }
 
 p {
