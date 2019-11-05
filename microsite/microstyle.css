@@ -49,10 +49,14 @@ body{
     display: flex;
     flex-direction: column;
 }
+h1{ 
+    margin-bottom: 0;  
+}
+
 h2{
-  
 color: white;  
 }
+
 h1,h2 {
 font-family:'ZCOOL XiaoWei', serif;
 font-size: 45px;
@@ -60,9 +64,9 @@ text-align: center;
 
 }
 .greeting{
-    font-size: 134px;
+    font-size: 100px;
     text-align: center;
-    margin: 92px 0;
+    margin: 50px 0;
 }
 
 
