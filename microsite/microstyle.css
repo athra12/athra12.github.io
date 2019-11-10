@@ -49,6 +49,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+.content{
+        min-height: calc(100vh - 210px);
+}
 h1{ 
     margin-bottom: 0;  
 }
@@ -122,5 +125,6 @@ footer p {
     margin: 0;
     color: beige;
     text-align: left;
-    
+    height: 60px;
 }
+
