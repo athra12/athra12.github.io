@@ -62,7 +62,7 @@ a{
 body{
     background-color:black;
     margin: 0%;
-    margin-top: px
+    margin-top: 80px;
 }
 
 h2{
@@ -86,6 +86,7 @@ header{
 .headtop{
     color: darkorange;
     text-align:;
+    
            }
 .text{
     color:darkslategrey;
