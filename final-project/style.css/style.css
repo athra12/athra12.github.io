@@ -121,7 +121,7 @@ height:250px;
 .abtext-wrapper{
     width: 100%;
     position: relative;
-/*    margin-top: -55%;*/
+
 }
 .main{
     display:flex;
@@ -186,7 +186,7 @@ font-size: 25px;
     display: none;
     position: fixed;
     left:30%;
-    top:50%;
+    top:35%;
     
 }
 .contactcontent.visible{
