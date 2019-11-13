@@ -1,3 +1,5 @@
+
+/*HOMEPAGE AND MAIN FUNCTIONS*/
 a{
     
 }
@@ -33,18 +35,8 @@ font-size: 30px;
 .mnav ul li a:hover{
    background-color:rgba(216, 144, 71, 0.5); 
 }
-/*
-h1 {
-font-family: 'Pacifico', cursive;
-font-size: 66px;
-text-align: center;
-}
-*/
-/*.image{
-border: ridge;
-border-radius: 50%;
-    */
-}
+
+
 body{
     background-color: #F7E8E5;
 }
@@ -71,6 +63,21 @@ body{
     color: floralwhite;
     
 
+}
+
+
+.minisite{
+display: flex;
+
+
+}
+.columns{
+    border:ridge;
+    display:flex;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: rgba(50,30,8,0.7);
+    width: 100%;
 }
 
 .content {
@@ -105,19 +112,8 @@ border-radius: 50%;
 width:350px ;
 height:250px;
 }
-/*page about me */
-.about-image{
-/*width: ;*/
-/*overflow: hidden;*/
-border: ;
-/*margin-right: 50%;*/
-}
-.abcontent-wrapper{
-/*
-    width: 60%;
-    margin: 14% 0% 5% 0%;
-*/
-}
+
+/*ABOUT ME PAGE*/
 
 .abcontent-wrapper img{
     width: 100%;
@@ -145,18 +141,12 @@ border: ;
 
 }
 .abcontent {
-/*    margin-bottom: 95%;*/
+
     color:floralwhite;
     padding: 0 20px;
     font-family: cursive;
     border: ;
-/*    background-color:#978576 ;*/
-/*    overflow: hidden;*/
-/*
-border:7A6053 ;
-width: 39%;
-margin-left: 60.5%;
-*/
+
 font-size: 25px;
 }
 .main{
@@ -172,7 +162,7 @@ font-size: 25px;
 /*contact me page*/
 
 .header{
-    height: 30vw; 
+    height: 15vw; 
     background-image:url(/final-project/images/adult-2449725_1920.jpg); width: 100%;
     color: antiquewhite;
     text-align: center;
@@ -180,8 +170,9 @@ font-size: 25px;
     background-size:cover;
     background-position: 0 -265px;
     background-color: rgb(200,200,200);
-    margin-top: ;
-    position: fixed;
+    margin-top:0% ;
+    padding-bottom: 0.5em;
+    padding-top: 1.5em ;
 }
 .contactservices{
     display: flex;
@@ -208,4 +199,23 @@ font-size: 25px;
     position: absolute;
     right:2%;
     cursor: pointer;
+}
+.contactinfo{
+margin-right:20%;
+font-size: 25px;
+color: #37130B;
+}
+.mnav.con{
+margin-top: -90px;
+}
+p{
+  font-family: 'Lato', sans-serif;
+   color: #37130B;
+font-size: 30px;
+}
+h4{
+   font-family: 'Pacifico', cursive; 
+}
+p.about{
+color: antiquewhite;
 }

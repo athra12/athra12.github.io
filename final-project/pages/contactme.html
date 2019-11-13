@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/final-project/style.css/style.css">
      <style>
 @import url('https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Marck+Script|Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');       
 </style>
      
      <script>
@@ -37,48 +38,36 @@
  
    
  <body>
-<!--   <header class="header">   -->
-   <nav class="mnav">
+   <header class="header">   
+   <nav class="mnav con">
     <Ul>
         <li> <a href="/final-project/pages/homepage.html"> Homepage </a></li>
         <li> <a href="/final-project/pages/aboutme.html"> About me </a></li>
-        <li> <a href="/final-project/pages/mywork.html"> Samples </a></li>
+        
         <li> <a href="/final-project/pages/contactme.html"> Contact me </a></li>
         <li> <a href="/final-project/pages/legal.html"> Legal pages </a></li>
     </Ul>   
     </nav>
-<!--    <h4>Contact Me</h4>-->
-<!--     </header>-->
+    <h4>Contact Me</h4>
+     </header>
      
      <div class="spacer"></div>
+<!--
      <div class="header">
      </div>
+-->
+    <div class="contactinfo">
+     <p>Telephone number:+5434573346976<br><br>
+Email: athra2319@gmail.com.</p>
+ 
      
-     <span>please</span>
+     <span>If you would like a quotation or further details on the services I offer.Please fill out the form and I will contact you.</span>
      <button type="button" onclick="javascript:showForm(event)">  contact me
      </button>
      
      
-<p>send me a message.</p>
+</div> 
  
-<!--      <i class="fa fa-close"></i>   -->
-     
-    <div>
-        maybe links to social platforms with icons 
-    </div>
-     <h2> My services </h2>
-     <div class="contactservices">
-      
-         <img class=flower src="/final-project/images/dande.jpg">
-       
-      <p class="ser-text">
-         * Website Design Improvement<br><br>
-         * Website Maintenance <br><br>
-         * website Management </p>
-         
-         <img class=fox src="/final-project/images/red-fox-1139351_1920.jpg">
-     </div>
-     
      <footer>
          <hr>
      <p>&copy;2019 shantal
@@ -91,11 +80,20 @@
   <i onclick="javascript:hideForm(event)"  class="fa fa-close" ></i>
 <!--         </button>-->
     <form onsubmit="javascript:hideForm(event);showSuccess();">
-  First name:<br>
+  FIRST NAME:<br>
   <input type="text" name="firstname" value="sha">
   <br>
-  Last name:<br>
+  LAST NAME:<br>
   <input type="text" name="lastname" value="shan">
+  <br>
+  WORK EMAIL:<br>
+  <input type="text" name="firstname" value="fox@gmail.com">
+  <br>
+  PHONE:<br>
+  <input type="text" name="phone" value="+8635379595625">
+  <br>
+  TELL ME ABOUT YOUR PROJECT:<br>
+  <input type="text" name="about your project" value="Small project maybe 3 pages" style="height: 100px" >
   <br><br>
         <button type="submit">Send Message</button>
  </form> 
