@@ -1,0 +1,211 @@
+a{
+    
+}
+
+/*nav*/
+.mnav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.mnav ul{
+list-style: none;
+list-style-type: none;
+display: flex; 
+padding-left:20px;
+
+    
+    
+}
+.mnav ul li{
+margin-right: 50px; 
+    
+}
+
+.mnav ul li a{
+text-decoration: none;
+color: #37130B;
+font-family: 'Courgette', cursive;
+font-size: 30px;
+    
+}
+
+.mnav ul li a:hover{
+   background-color:rgba(216, 144, 71, 0.5); 
+}
+/*
+h1 {
+font-family: 'Pacifico', cursive;
+font-size: 66px;
+text-align: center;
+}
+*/
+/*.image{
+border: ridge;
+border-radius: 50%;
+    */
+}
+body{
+    background-color: #F7E8E5;
+}
+.spacer {
+    margin-top:100px;
+}
+.content-wrapper{
+    width: 100%;
+    margin: 4% 0% 5% 0%;
+}
+
+.content-wrapper img{
+    width: 100%;
+}
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -55%;
+}
+.text-wrapper h1{
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Pacifico', cursive;
+    color: floralwhite;
+    
+
+}
+
+.content {
+    margin-top: 45%;
+    color: #37130B;
+    font-size: 20px;
+}
+.services{
+display: flex;
+   
+}
+.flower{
+overflow: hidden;
+border: ridge;
+border-radius: 50%;
+width:350px ;
+height:250px ;
+margin-right: 20%;
+}
+.ser-text{
+overflow: hidden;
+border: ;
+width: 20%;
+margin-right: 20%;
+font-size: 25px;
+color: #37130B;
+}
+.fox{
+overflow: hidden;
+border: ridge;
+border-radius: 50%;
+width:350px ;
+height:250px;
+}
+/*page about me */
+.about-image{
+/*width: ;*/
+/*overflow: hidden;*/
+border: ;
+/*margin-right: 50%;*/
+}
+.abcontent-wrapper{
+/*
+    width: 60%;
+    margin: 14% 0% 5% 0%;
+*/
+}
+
+.abcontent-wrapper img{
+    width: 100%;
+}
+.abtext-wrapper{
+    width: 100%;
+    position: relative;
+/*    margin-top: -55%;*/
+}
+.main{
+    display:flex;
+    margin: 90px 0 0;
+}
+.main section {
+    flex: 1;
+}
+.abtext-wrapper h1{
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Pacifico', cursive;
+    color: floralwhite;
+    position: absolute;
+    left: 30%;
+    
+
+}
+.abcontent {
+/*    margin-bottom: 95%;*/
+    color:floralwhite;
+    padding: 0 20px;
+    font-family: cursive;
+    border: ;
+/*    background-color:#978576 ;*/
+/*    overflow: hidden;*/
+/*
+border:7A6053 ;
+width: 39%;
+margin-left: 60.5%;
+*/
+font-size: 25px;
+}
+.main{
+     background-color:#978576 ;
+   
+}
+
+.abcontent h3 {
+    margin-top: 20px;
+    font-family: 'Marck Script', cursive;
+
+}
+/*contact me page*/
+
+/*.header{
+    height: 30vw; 
+    background-image:url(/final-project/images/adult-2449725_1920.jpg); width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 80px;
+    background-size:cover;
+    background-position: 0 -265px;
+    background-color: rgb(200,200,200);
+    margin-top: ;
+    position: fixed;
+}*/
+.contactservices{
+    display: flex;
+}
+
+.contactsuccess,
+.contactcontent{
+    background-color: rosybrown;
+    border: ridge;
+    width: 550px;
+    display: none;
+    position: fixed;
+    left:30%;
+    top:50%;
+    
+}
+.contactcontent.visible{
+    display: block;
+    
+}
+
+.fa.fa-close{
+    font-size: 20px;
+    position: absolute;
+    right:2%;
+    cursor: pointer;
+}

@@ -3,9 +3,8 @@ a{
 }
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Marck+Script|Pacifico&display=swap');
 </style>
-
 /*nav*/
 .mnav{
     position: fixed;
@@ -16,23 +15,61 @@ a{
 list-style: none;
 list-style-type: none;
 display: flex; 
+padding-left:20px;
+
+    
     
 }
 .mnav ul li{
+margin-right: 50px; 
     
 }
 
 .mnav ul li a{
 text-decoration: none;
-
+font-family: 'Courgette', cursive;
     
 }
-
+/*
 h1 {
-font-family: 'Crimson Text', serif;
-font-size: 3em 
+font-family: 'Pacifico', cursive;
+font-size: 66px;
+text-align: center;
+}
+*/
+.image{
+border: ridge;
+border-radius: 10%;
+    
+}
+body{
+    background-color: #37130B;
+}
+.content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
 }
 
+.content-wrapper img{
+    width: 100%;
+}
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -55%;
+}
+.text-wrapper h1{
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Pacifico', cursive;
+    color: floralwhite;
+    
+
+}
+
+.content {
+    margin-top: 55%
+}
 /*.mnav ul li a:hover{
     
 }*/
